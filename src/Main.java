@@ -14,8 +14,9 @@ public static void main(String[] args){
     if(select == 1){
         Activity1 act1 = new Activity1();
         act1.greetUser();
-    }else if(select == 2){
-
+    }else if(select == 2) {
+        Activity2 act2 = new Activity2();
+        act2.cinemaTicketing();
     }else{
         System.out.print("Selection not Found!");
 
